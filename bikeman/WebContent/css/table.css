@@ -1,0 +1,83 @@
+.bg-image
+{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 13px;
+	margin: 0 auto;
+	margin-bottom: 15px;
+	text-align: left;
+	border-collapse: collapse;
+	padding: 0 0 0 0 px;
+}
+.head_table{
+	padding: 0px 0px 0px 0px;
+	
+}
+
+.bankerScroll {
+    display:block;
+    overflow:auto;
+    height:380px;
+    width: 968px;
+    white-space:nowrap;
+    padding: 0 0 0 0 px;
+}
+
+.fieldLabel {
+    color: #000000;
+    font-size: 85%;
+    font-weight: bold;
+}
+
+.bg-image_head
+{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 13px;
+	margin: 0 auto;
+	margin-bottom: 15px;
+	text-align: left;
+	border-collapse: collapse; x 
+}
+.bg-image th, .bg-image thead th
+{
+	padding: 7px 10px;
+	font-weight: normal;
+	font-size: 14px;
+	background: #8d8d8d;
+	color: #000;
+	text-shadow: 0 1px 1px rgba(255,255,255,0.4);
+	border: 0px solid #555;
+}
+.bg-image td
+{
+	padding: 5px 10px;
+	font-size: 12px;
+	color: #222;
+	border: 1px solid #888;
+}
+.bg-image tfoot td
+{
+	font-size: 11px;
+	background: #DFDFDF;
+	border: none;
+}
+.bg-image tbody td
+{
+	background: #cecbcb;
+}
+
+* html .bg-image tbody td
+{
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/table/back.png',sizingMethod='crop');
+	background: none;
+}	
+.bg-image tbody tr:hover td
+{
+	color: #000;
+	background: #eee;
+}
+.breakword tr  td {
+	word-break:break-all;
+}
+.columntop tbody tr td{
+	vertical-align: top;
+}
