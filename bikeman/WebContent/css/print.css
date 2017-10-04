@@ -1,0 +1,20 @@
+ body {
+        height: 842px;
+        width: 595px;
+        /* to centre page on screen*/
+        background-color : black;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+@page Section1 {
+	size:8.27in 11.69in; 
+	margin:.5in .5in .5in .5in; 
+	mso-header-margin:.5in; 
+	mso-footer-margin:.5in; 
+	mso-paper-source:0;
+}
+
+div.Section1 {
+	page:Section1;
+} 
