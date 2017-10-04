@@ -1,0 +1,67 @@
+.bg-image
+{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 13px;
+	margin: 0 auto;
+	margin-bottom: 15px;
+	text-align: left;
+	border-collapse: collapse;
+}
+.bg-image th, .bg-image thead th
+{
+	padding: 7px 10px;
+	font-weight: normal;
+	font-size: 14px;
+	background: #8d8d8d;
+	color: #000;
+	text-shadow: 0 1px 1px rgba(255,255,255,0.4);
+	border: 1px solid #555;
+}
+.bg-image td
+{
+	padding: 5px 10px;
+	font-size: 12px;
+	color: #222;
+	border: 1px solid #888;
+}
+.bg-image tfoot td
+{
+	font-size: 11px;
+	background: #DFDFDF;
+	border: none;
+}
+.bg-image tbody td
+{
+	background: #cecbcb;
+
+	/*background: url('../images/table/back.png');*/
+}
+
+* html .bg-image tbody td
+{
+	/* 
+	   ----------------------------
+		PUT THIS ON IE6 ONLY STYLE 
+		AS THE RULE INVALIDATES
+		YOUR STYLESHEET
+	   ----------------------------
+	*/
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/table/back.png',sizingMethod='crop');
+	background: none;
+}	
+.bg-image tbody tr:hover td
+{
+	color: #000;
+	background: #eee;
+}
+
+
+/*
+	Bank Fix TD
+*/
+.breakword tr  td {
+	word-break:break-all;
+}
+.columntop tbody tr td{
+	vertical-align: top;
+}
